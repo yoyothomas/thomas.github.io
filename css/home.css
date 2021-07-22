@@ -1,0 +1,119 @@
+/* CSS Document */
+
+
+	body{
+    text-align: center;		
+	}
+.navbar {
+	position: fixed;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;
+  
+  }
+
+	.navbar a {
+		 font-family: 'Brush Script MT', cursive;
+		float: left;
+		font-size: 35px;
+		color: white;
+		text-align: center;
+		padding: 5px 25px;
+		text-decoration: none;
+		
+		
+	}
+
+	.dropdown{
+		float: right;
+		overflow: hidden;
+	}
+
+
+	.dropdown .dropbtn{
+		font-size: 35px;
+		border: none;
+		outline: none;
+		color: white;
+		padding:  14px 16px;
+		background-color: inherit;
+		margin: 0;
+		font-family:  'Brush Script MT', cursive;
+	}
+	.navbar a:hover, .dropdown:hover .dropbtn{
+		background-color: #FFCACA;
+	}
+	.dropdown-content{
+	display: none;
+	position: fixed;
+	right: 0px;
+	top: 70px;
+	background-color: #000000;
+	min-width: 168px;
+		/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);*/
+	z-index: 1;
+	}
+	.dropdown-content a{
+		float: none;
+		color: white;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+	.dropdown-content a:hover{
+		
+	}
+	 
+
+
+	p {
+		text-align: center;
+		font-size: 30px;
+		padding-top: 0px;
+		color: #FFCACA
+		
+	}
+	table{
+    margin-top: 80px;
+    background-color: #FFFFFF;
+	}
+body,td,th {
+    color: #000000;
+    text-align: center;
+    background-image: url("../img/sky.jpeg");
+   
+}
+	.font1{
+		 font-family: 'Brush Script MT', cursive;
+	}
+.homeimg:hover{
+	width: 450px;
+	margin: 0px;
+}
+.homeimg {
+    margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	margin-bottom: 3px;
+}
+#bt{
+	font-size: 50px;
+	color: lightpink;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	margin-right: 20;
+	}
+
+.wrapper{
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+.hide{
+	display: none;
+}
