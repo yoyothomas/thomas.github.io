@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>全部</title>
+<title>付款 | Payment</title>
 <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
@@ -10,6 +10,7 @@
 <style>
 @import url("css/head.css");
 @import url("css/footer.css");
+@import url("css/pay.css");
 a:link:not(.fa){
 	text-decoration: none;
 	color: #625A57;
@@ -25,42 +26,22 @@ a:hover:not(.fa) {
 a:active:not(.fa)  {
 	text-decoration: none;
 }
-	.container{
-		margin: auto;
-		width: 1100px;
-	}
-.container img{
-width: 100%
-	}
-.container .btn {
- display: block;
-margin: auto;
-position: relative;
-	top:-170px;
-  background-color: white;
- width: 85px;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 10px;
-}
-
-.container .btn:hover {
-  background-color: darkolivegreen;
-}
-@media screen and (max-width: 1200px) {.container {width:  980px;}
-	.container .btn{top:-150px;padding: 11px 20px;}                       }
-@media screen and (max-width: 1000px) {.container {width:  780px;}
-		.container .btn{top:-125px;padding: 11px 20px;}                   }
 @media screen and (max-width: 780px) {
-.container {width:  100%;}
-	.container .btn{top: -16vw;padding: 1vw 2vw;} 
-	.footer{
-	position: absolute;
-	bottom: 0px;
+	.dropdown-content a {
+ background-color: aqua;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+width: 100%;
+	
 }
+	
 	}
+
 </style>
 <div class="fatop">
+
 <img src="images/ccp.png" class="toptopimg" alt=""/>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-youtube"></a>
@@ -109,10 +90,9 @@ position: relative;
 
 		
     </div>
-	<hr width="100%">
 	</div>
 	
-	
+	<hr style="width: 100%" >
 
 	</div>
 
@@ -120,11 +100,54 @@ position: relative;
 
 </head> 
 <body>
-	
-	<div class="container"><img src="images/banner_h.png" alt="C&C Product All products">
-		<a class="btn" href="mupaga - allw.html" role="button">SHOP NOW</a></div>
+<div class="paybox">
+<h2 style="text-align: left">選擇送貨或取貨方式</h2>
+<div class="infobox">
+<p class="infoleft">📦順豐快遞 - 💲購物滿$400免運費，購物$400以下順豐到付方式寄出，有關順豐收費請到順豐官方網站了解。 ✔️可寄到指定住宅、工商地址、順豐站、智能櫃。 🌟 如閣下選擇在順豐站/智能櫃取件，地址欄只需填寫順豐站/智能櫃代號。 🌟(本店只有用順豐寄貨，請勿填寫其他速遞公司代碼)。 🌟 為免造成訂單混亂，下單後不設更改或後加合併夾單岀貨安排，免運費計算方法以每張訂單計算。 ❤️一般出貨日期大概7至10日。</p>
+<p class="inforight">+HKD 0.00</p>
+</div>
+<h2 style="text-align: left">客戶資料</h2>
+<p class="cinfo">我們會透過以下電郵提示訂單狀況：如有任何訂單問題亦會透過以下電話號碼聯絡</p>
+<div class="infoboxs">
+<div class="namebox">
+<p class="cinfotxt">姓名</p>
+<input type="text" class="ip">
+</div>
+<div class="emailbox">
+<p class="cinfotxt">電郵地址</p>
+<input type="text" class="ip">
+</div>
+<div class="numbox">
+<p class="cinfotxt">電話號碼</p>
+<input type="text" class="ip">
+</div>
+</div>
+<div class="addbox">
+<p class="cinfotxt">送貨地址</p>
+<textarea class="addip"></textarea>
+<p class="addinfo">送貨地址欄中填上 中通自提點、宅急便自提點、順豐服務中心、順豐站或順豐服務點的點碼</p>
+</div>
+<div class="remarkbox">
+<p class="cinfotxt">備註</p>
+<textarea class="remarkip"></textarea>
+</div>
+
+<ul  border="1" class="pricetable">
+ 
+    
+      <li class="left"><p>共計</p><p>運費</p><p>總計</p></li>
+      <li class="right">
+        <p>HKD 2664</p>
+        <p>+HKD 0 </p>
+        <p style="font-weight: bold;"> HKD 2664</p></li>
+
+	<li><a class="cartboxrowtotalpricenext" href="pay2.html">下一步</a></li>
+
 
 	
+	
+</ul>
+</div>
 <ul  border="1" class="footer">
 	<p style="font-weight: bold;font-size: 25px;">快速鏈接</p>
     <li><a href="faq.html">常見問題</a></li>

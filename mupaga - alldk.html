@@ -2,13 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>全部</title>
+<title>飾物</title>
 <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <script src="https://kit.fontawesome.com/4ce6db6be8.js" crossorigin="anonymous"></script>
 <style>
 @import url("css/head.css");
+@import url("css/mupage.css");
+@import url("css/categoriesdd.css");
 @import url("css/footer.css");
 a:link:not(.fa){
 	text-decoration: none;
@@ -25,42 +27,48 @@ a:hover:not(.fa) {
 a:active:not(.fa)  {
 	text-decoration: none;
 }
-	.container{
-		margin: auto;
-		width: 1100px;
+.footer{
+text-align: center;
+	background-color: antiquewhite;
+	list-style-type:none;
+	font-size: 20px;
+	width: 100%;
+	padding: 50px 0px;
+	margin: 150px 0px 0px 0px ;
+	height: 300px;
 	}
-.container img{
-width: 100%
-	}
-.container .btn {
- display: block;
-margin: auto;
-position: relative;
-	top:-170px;
-  background-color: white;
- width: 85px;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 10px;
-}
-
-.container .btn:hover {
-  background-color: darkolivegreen;
-}
-@media screen and (max-width: 1200px) {.container {width:  980px;}
-	.container .btn{top:-150px;padding: 11px 20px;}                       }
-@media screen and (max-width: 1000px) {.container {width:  780px;}
-		.container .btn{top:-125px;padding: 11px 20px;}                   }
 @media screen and (max-width: 780px) {
-.container {width:  100%;}
-	.container .btn{top: -16vw;padding: 1vw 2vw;} 
-	.footer{
-	position: absolute;
-	bottom: 0px;
+	.main{width:  100%;}
+	.dropdown-content a {
+ background-color: aqua;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+width: 100%;
+	
+}
+		.footer{
+	font-size: 15px;
+	width: 100%;
+	padding: 5px 0px;
+	margin: 150px 0px 0px 0px ;
+	height: 130px;
+}
+.footer li{
+	padding:5px;
+	
+}
+.footer p{
+	font-size: 20px;
+	padding: 0px;
+	margin: 5px
 }
 	}
+
 </style>
 <div class="fatop">
+
 <img src="images/ccp.png" class="toptopimg" alt=""/>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-youtube"></a>
@@ -109,10 +117,9 @@ position: relative;
 
 		
     </div>
-	<hr width="100%">
 	</div>
 	
-	
+	<hr style="width: 100%" >
 
 	</div>
 
@@ -120,10 +127,81 @@ position: relative;
 
 </head> 
 <body>
-	
-	<div class="container"><img src="images/banner_h.png" alt="C&C Product All products">
-		<a class="btn" href="mupaga - allw.html" role="button">SHOP NOW</a></div>
+	<img src="images/banner_a.png" alt="C&C Product Accessories" class="bander">
 
+<div class="categoriesbox">
+	<p class="categories">分類</p>
+	
+<div class="categoriesdddropdown" >
+ <button onclick="categoriesddmyFunction()" class="categoriesdddropbtn" >飾物<i class ="fa fa-caret-down"></i></button>
+	<div id="categoriesddmyDropdown" class="categoriesdddropdown-content">
+	  <a  href="mupaga - allw.html">全部</a>
+		<a  href="mupaga - allc.html">護膚品</a>
+		<a  href="mupaga - alls.html">生活用品</a>
+		
+    </div>
+</div>
+ </div> 
+
+	
+<div class="row">
+
+  <div class="column">
+	  <a href="粉紅葉髮夾呔夾.html">
+    <div class="card">
+      <img src="12/粉紅葉髮夾呔夾.jpg" alt="Mike" class="boximg">
+      <div class="container">
+        <h2 class="title">粉紅葉髮夾呔夾</h2>
+        <p class="menupice">$20</p>
+		 <i class="fas fa-shopping-cart button"></i>
+		  
+      </div>
+    </div></a>
+  </div>
+	
+<div class="column">
+	<a href="灰珍珠耳環.html">
+    <div class="card">
+      <img src="12/灰珍珠耳環.jpg" alt="Mike" class="boximg">
+      <div class="container">
+        <h2 class="title">灰珍珠耳環</h2>
+        <p class="menupice">$20</p>
+		 <i class="fas fa-shopping-cart button"></i>
+      </div>
+    </div></a>
+  </div>
+	
+<div class="column">
+    <a href="玫瑰花髮夾呔夾.html">
+    <div class="card" >
+      <img src="12/玫瑰花髮夾呔夾.jpg" alt="Mike" class="boximg">
+      <div class="container">
+        <h2 class="title">玫瑰花髮夾呔夾</h2>
+        <p class="menupice">$20</p>
+		 <i class="fas fa-shopping-cart button"></i>
+      </div>
+    </div>
+	</a>
+  </div>
+	
+<div class="column">
+	<a href="少女珍珠耳環.html">
+    <div class="card">
+      <img src="12/少女珍珠耳環.jpg" alt="Mike" class="boximg">
+      <div class="container">
+        <h2 class="title">少女珍珠耳環</h2>
+        <p class="menupice">$20</p>
+		 <i class="fas fa-shopping-cart button"></i>
+      </div>
+    </div>
+	</a>
+  </div>
+  
+
+
+
+</div>
+	
 	
 <ul  border="1" class="footer">
 	<p style="font-weight: bold;font-size: 25px;">快速鏈接</p>

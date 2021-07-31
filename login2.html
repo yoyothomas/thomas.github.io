@@ -2,15 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>全部</title>
+<title>登入 | Login</title>
 <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <script src="https://kit.fontawesome.com/4ce6db6be8.js" crossorigin="anonymous"></script>
-<style>
+<style type="text/css">
 @import url("css/head.css");
 @import url("css/footer.css");
-a:link:not(.fa){
+@import url("css/login2.css");
+		a:link:not(.fa){
 	text-decoration: none;
 	color: #625A57;
 }
@@ -25,42 +26,23 @@ a:hover:not(.fa) {
 a:active:not(.fa)  {
 	text-decoration: none;
 }
-	.container{
-		margin: auto;
-		width: 1100px;
-	}
-.container img{
-width: 100%
-	}
-.container .btn {
- display: block;
-margin: auto;
-position: relative;
-	top:-170px;
-  background-color: white;
- width: 85px;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 10px;
-}
-
-.container .btn:hover {
-  background-color: darkolivegreen;
-}
-@media screen and (max-width: 1200px) {.container {width:  980px;}
-	.container .btn{top:-150px;padding: 11px 20px;}                       }
-@media screen and (max-width: 1000px) {.container {width:  780px;}
-		.container .btn{top:-125px;padding: 11px 20px;}                   }
 @media screen and (max-width: 780px) {
-.container {width:  100%;}
-	.container .btn{top: -16vw;padding: 1vw 2vw;} 
-	.footer{
-	position: absolute;
-	bottom: 0px;
+	.main{width:  100%;}
+	.dropdown-content a {
+ background-color: aqua;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+width: 100%;
+	
 }
+	
 	}
+
 </style>
 <div class="fatop">
+
 <img src="images/ccp.png" class="toptopimg" alt=""/>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-youtube"></a>
@@ -109,10 +91,9 @@ position: relative;
 
 		
     </div>
-	<hr width="100%">
 	</div>
 	
-	
+	<hr style="width: 100%" >
 
 	</div>
 
@@ -120,10 +101,20 @@ position: relative;
 
 </head> 
 <body>
+<div class="loginbody">
+<p>用戶郵箱 :</p>
+<input type="text" class="ip">
+<p>密碼 :</p>
+<input type="text" class="ip">
+<div class="loginbt">
+<p>登錄</p>
+<p>註冊</p>
+</div>
+</div>
 	
-	<div class="container"><img src="images/banner_h.png" alt="C&C Product All products">
-		<a class="btn" href="mupaga - allw.html" role="button">SHOP NOW</a></div>
-
+	
+	
+	
 	
 <ul  border="1" class="footer">
 	<p style="font-weight: bold;font-size: 25px;">快速鏈接</p>

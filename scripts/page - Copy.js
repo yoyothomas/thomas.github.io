@@ -1,14 +1,6 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-var backtotop = document.querySelector(".bt");
-backtotop.addEventListener('click',()=>{
-window.scrollTo({
-  top: 100,
-  left: 100,
-  behavior: 'smooth'
-});
 
-})
 
 function xmyFunction(x) {
   x.classList.toggle("change");
@@ -85,7 +77,6 @@ cbt.addEventListener('click',()=>{
 	pay2.classList.remove('show');
 	pay2end.classList.add('show');
 })
-
 
 
 

@@ -2,15 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>全部</title>
+<title>付款 | Payment</title>
 <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <script src="https://kit.fontawesome.com/4ce6db6be8.js" crossorigin="anonymous"></script>
 <style>
+
 @import url("css/head.css");
 @import url("css/footer.css");
-a:link:not(.fa){
+@import url("css/pay2.css");
+	a:link:not(.fa){
 	text-decoration: none;
 	color: #625A57;
 }
@@ -25,42 +27,22 @@ a:hover:not(.fa) {
 a:active:not(.fa)  {
 	text-decoration: none;
 }
-	.container{
-		margin: auto;
-		width: 1100px;
-	}
-.container img{
-width: 100%
-	}
-.container .btn {
- display: block;
-margin: auto;
-position: relative;
-	top:-170px;
-  background-color: white;
- width: 85px;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 10px;
-}
-
-.container .btn:hover {
-  background-color: darkolivegreen;
-}
-@media screen and (max-width: 1200px) {.container {width:  980px;}
-	.container .btn{top:-150px;padding: 11px 20px;}                       }
-@media screen and (max-width: 1000px) {.container {width:  780px;}
-		.container .btn{top:-125px;padding: 11px 20px;}                   }
 @media screen and (max-width: 780px) {
-.container {width:  100%;}
-	.container .btn{top: -16vw;padding: 1vw 2vw;} 
-	.footer{
-	position: absolute;
-	bottom: 0px;
+	.dropdown-content a {
+ background-color: aqua;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+width: 100%;
+	
 }
+	
 	}
+
 </style>
 <div class="fatop">
+
 <img src="images/ccp.png" class="toptopimg" alt=""/>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-youtube"></a>
@@ -109,10 +91,9 @@ position: relative;
 
 		
     </div>
-	<hr width="100%">
 	</div>
 	
-	
+	<hr style="width: 100%" >
 
 	</div>
 
@@ -120,10 +101,55 @@ position: relative;
 
 </head> 
 <body>
-	
-	<div class="container"><img src="images/banner_h.png" alt="C&C Product All products">
-		<a class="btn" href="mupaga - allw.html" role="button">SHOP NOW</a></div>
 
+<div class="pay2bigbox">
+<h1 style="text-align: left">付款方式</h1>
+<div class="row">
+	
+  <div class="column obt">
+    <div class="card">
+     <h7>八達通</h7>
+	  <p>$0</p>
+    </div>
+  </div>
+
+	  
+<div class="column cbt">
+    <div class="card">
+     <h7>銀行轉帳</h7>
+	<p>$0</p>
+    </div>
+  </div>
+</div>	
+	
+<div class="payinfo">
+<ul class="pay2">
+<img src="12/ps.png" class="pay2img" alt=""/>
+<li>付款全程 我們絕對不會獲得閣下任何的付款資料</li>
+<li>最快的最便捷付款方式</li>
+</ul>
+
+<ul class="pay1">
+<li>若選擇貨銀行轉帳，在訂單創建後，需等候我們確認訂單後再付款<br>(收到貨款後方會留貨)</li>
+<li>使用銀行轉帳付款時 請記錄付款資料 並發送到<br>
+email: sales@terminalhk.com</li>
+<li>不同銀行之間轉帳需最多一個工作天處理</li>
+<li>閣下需承擔因銀行轉帳所產生手續費</li>
+<li>銀行帳戶：<br>
+中國銀行 （香港）<br>
+TERMINALHK LIMITED<br>
+012-898-00184369</li>
+<li>銀行帳戶：<br>
+匯豐銀行 HSBC<br>
+TERMINALHK LIMITED<br>
+023-681208-838</li>
+</ul>
+</div>
+
+<a href="mupaga - allw.html"><p class="pay2end">完成</p></a>
+
+</div>
+	
 	
 <ul  border="1" class="footer">
 	<p style="font-weight: bold;font-size: 25px;">快速鏈接</p>

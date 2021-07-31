@@ -2,14 +2,23 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>全部</title>
+<title>購物車 | Cart</title>
 <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <script src="https://kit.fontawesome.com/4ce6db6be8.js" crossorigin="anonymous"></script>
 <style>
 @import url("css/head.css");
+@import url("css/cart.css");
 @import url("css/footer.css");
+.fa {
+ width: 20px;
+}
+.back{
+	font-size: 16px;
+	font-family: 微軟正黑體, Arial;
+	text-align: left;
+	}
 a:link:not(.fa){
 	text-decoration: none;
 	color: #625A57;
@@ -25,42 +34,22 @@ a:hover:not(.fa) {
 a:active:not(.fa)  {
 	text-decoration: none;
 }
-	.container{
-		margin: auto;
-		width: 1100px;
-	}
-.container img{
-width: 100%
-	}
-.container .btn {
- display: block;
-margin: auto;
-position: relative;
-	top:-170px;
-  background-color: white;
- width: 85px;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 10px;
-}
-
-.container .btn:hover {
-  background-color: darkolivegreen;
-}
-@media screen and (max-width: 1200px) {.container {width:  980px;}
-	.container .btn{top:-150px;padding: 11px 20px;}                       }
-@media screen and (max-width: 1000px) {.container {width:  780px;}
-		.container .btn{top:-125px;padding: 11px 20px;}                   }
 @media screen and (max-width: 780px) {
-.container {width:  100%;}
-	.container .btn{top: -16vw;padding: 1vw 2vw;} 
-	.footer{
-	position: absolute;
-	bottom: 0px;
+	.dropdown-content a {
+ background-color: aqua;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+width: 100%;
+	
 }
+	
 	}
+
 </style>
 <div class="fatop">
+
 <img src="images/ccp.png" class="toptopimg" alt=""/>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-youtube"></a>
@@ -109,22 +98,55 @@ position: relative;
 
 		
     </div>
-	<hr width="100%">
 	</div>
 	
-	
+	<hr style="width: 100%" >
 
 	</div>
 
 
 
 </head> 
-<body>
-	
-	<div class="container"><img src="images/banner_h.png" alt="C&C Product All products">
-		<a class="btn" href="mupaga - allw.html" role="button">SHOP NOW</a></div>
 
+<body>
+
+<div class="main">
+<p class="back"><a href="newhome.html">首頁</a> <i class="fas fa-angle-double-right"></i> <a href="cart.html">購物車</a></p>
+<h1 style="text-align: left">購物車</h1>
+<div class="cartbar"><p class="cartbarleft">已選商品</p><p class="cartbarright">價格</p><p class="cartbarright">數量</p><hr style="width: 100%;position: relative;top:10px" ></div>
+
+<div class="cartbox">
+
+<div class="cartboxrow">
+<img src="12/去印膏.jpg" class="cartboxrowimg" alt="cartboxrowimg"/>
+<p class="cartboxrowprice">HKD 888</p>
+<input type="number" class="cartboxrownum" min="1" value="1">
+<hr style="width: 100%;position: relative;top:10px" >
+</div>
+
+<div class="cartboxrow">
+<img src="12/香薰蠟燭.jpeg" class="cartboxrowimg" alt="cartboxrowimg"/>
+<p class="cartboxrowprice">HKD 888</p>
+<input type="number" class="cartboxrownum" min="1" value="1" >
+<hr style="width: 100%;position: relative;top:10px" >
+</div>
+
+<div class="cartboxrow">
+<img src="12/蚊怕水.jpeg" class="cartboxrowimg" alt="cartboxrowimg"/>
+<p class="cartboxrowprice">HKD 888</p>
+<input type="number" class="cartboxrownum" min="1" value="1">
+<hr style="width: 100%;position: relative;top:10px" >
+</div>
 	
+<div class="cartboxrow">
+<p class="cartboxrowtotalprice">共計 :&nbsp  HKD 2664</p>
+<a class="cartboxrowtotalpricenext" href="pay.html">下一步</a>
+</div>
+	
+</div>
+</div>
+
+
 <ul  border="1" class="footer">
 	<p style="font-weight: bold;font-size: 25px;">快速鏈接</p>
     <li><a href="faq.html">常見問題</a></li>
