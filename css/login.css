@@ -1,0 +1,42 @@
+/* CSS Document */
+.back{
+	font-size: 12px;
+	font-family: 微軟正黑體, Arial;
+	}
+.article{
+	margin: auto;
+	width: 1100px;
+	text-align: left;
+	background-color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 15px;
+	border-radius: 10px;
+	border: 2px solid #946b73;
+	height: 900px;
+	}
+.content {width:900px; padding-left: 2px; padding-right: 2px;border:1px; overflow:hidden;}
+.content img{max-width:760px;}
+body {
+	
+	background-color: #f3e18f;
+	font-size: 16px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #3D3836;
+}
+a:link {
+	text-decoration: none;
+	color: #625A57;
+}
+a:visited {
+	text-decoration: none;
+	color: #946b73;
+}
+a:hover {
+	text-decoration: none;
+	color: #d2ac6e;
+}
+a:active {
+	text-decoration: none;
+}

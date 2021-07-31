@@ -1,14 +1,30 @@
-.categoriesdddropbtn {
-float: left;
-  padding: 5px 5px;
-  font-size: 30px;
+.categories{
+display: block;
+font-size: 25px;
+width: 1100px;
+margin: auto;
+padding: auto;
+text-align: left;
+}
+.categoriesdddropdown{
+display: block;
+width: 1100px;
+margin: 0px 0px;;
+padding: auto;
+text-align: left;
+
+	}
+
+.categoriesdddropbtn{
+  padding: 0px 10px ;
+  font-size: 18px;
   border: none;
   cursor: pointer;
- background-color: white;
+	width: 160px;
+	background-color: white;
+	
 }
-.categoriesdddropdowntxt{
-	padding-right: 10px;
-}
+
  /* Dropdown button on hover & focus 
 .dropbtn:hover, .dropbtn:focus {
   background-color: lightpink;
@@ -21,26 +37,27 @@ float: left;
 
 /* Dropdown Content (Hidden by Default) */
 .categoriesdddropdown-content {
-  display: none;
-  position: fixed;
-top: 40px;
-	right: 0px;
-  background-color: black;
-  min-width: 134px;
- /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  z-index: 1;
+position: absolute;
+display: none;
+  width: 95px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
 }
 
 /* Links inside the dropdown */
-.categoriesdddropdown-content a {
-  color: white;
-  padding: 12px 16px;
+.categoriesdddropdown-content a{
+	display: block;
+	font-size: 18px;
+  color: black;
+  padding: 15px 10px ;
   text-decoration: none;
-  display: block;
+  text-align: left;
+	background-color: white;
+	margin: 0px;
 }
 
 /* Change color of dropdown links on hover */
-.categoriesdddropdown-content a:hover {background-color: #ddd}
+.categoriesdddropdown-content p:hover {background-color: #ddd}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .categoriesddshow {display:block;}

@@ -1,0 +1,147 @@
+/* CSS Document */
+.paybox{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding: 0px 0px;
+	
+}
+.infobox{
+border: 2px solid #7AFF5F ;
+float: left;
+padding: 5px 20px;
+margin-bottom: 50px;
+}
+.infoleft{
+	float: left;
+	width: 85%;
+}
+.inforight{
+	float: right;
+	width: 15%;
+}
+
+
+.cinfo{
+text-align: left;
+}
+.infoboxs{
+	width:200px; 
+}
+.cinfotxt{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.red{
+	float: left;
+    font-size: 20px;
+}
+.ip{
+	font-size: 20px;
+	width: 300px;
+	height: 30px;
+	background-color: #D7D5D5;
+	border: none;
+}
+.addip{
+	
+	width: 100%;
+	height: 50px;
+}
+.addinfo{
+	font-size: 15px;
+	float: left;
+	width: 100%;
+	opacity: 0.7;	
+	text-align: left;
+}
+.remarktxt{
+text-align: left;
+}
+.remarkip{
+width: 100%;
+  height: 50px;
+}
+
+ul{
+
+	float: right;
+	list-style-type:none;
+	font-size: 20px;
+	height: 100px;
+	width: 350px;
+}
+.left{
+	float: left;
+	width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.right p{
+
+	padding-bottom: 7px
+}
+.cartboxrowtotalpricenext{
+	float: left;
+    position: relative;
+	left: 180px;
+	font-size: 25px;
+	background-color: #00FFA3;
+	padding: 5px 50px;
+	margin-top: 15px ;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+.fatop {
+width: 1000px;
+		
+	}
+.sticky {
+  width: 100%;
+}
+
+.navbar {
+	width: 100%;
+}
+.paybox{
+	width: 1000px;
+}
+}
+@media screen and (max-width: 1000px) {
+
+	.fatop {
+width: 100%;
+		
+	}
+.paybox{
+	width: 780px;
+}
+}
+@media screen and (max-width: 780px) {
+.paybox{
+	width: 100%;
+}
+}
+@media screen and (max-width: 500px) {
+
+.cartboxrowtotalpricenext{
+	padding: 5px 20px;
+	position: relative;
+	left:100px;
+}
+ul{
+	width: 200px;
+}
+
+}
+@media screen and (min-width: 780px) {
+	.dropdown-content{
+		display: none;
+	}
+}

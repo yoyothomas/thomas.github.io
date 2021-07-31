@@ -1,0 +1,145 @@
+/* CSS Document */
+.main{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	margin-top: 25px;
+}
+.cartbar{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.cartbarleft{
+	float: left;
+	
+}
+.cartbarright{
+	float: right;
+	margin-left: 50px;
+	padding: 0px 20px;
+}
+.cartboxrow{
+	margin-left: auto;
+	margin-right: auto;
+	height:150px;
+	clear: both;
+	margin-top:  20px 
+}
+.cartboxrowimg{
+    float: left;
+	height: 100%;
+}
+
+.cartboxrownum{
+float: right;
+width: 50px;
+height: 35px;
+font-size: 20px;
+position: relative;
+top: 45px;
+
+}
+.cartboxrowprice{
+	font-size: 20px;
+	 float: right;
+	padding: 20px;
+margin-left: 20px;
+	position: relative;
+top: 15px;
+}
+.cartboxrowtotalprice{
+    float: right;
+    margin-left: 50%;
+    font-size: 20px;
+    position: relative;
+    left: -20px;
+    list-style-type: none;
+	 
+}
+.cartboxrowtotalpricenext{
+	float: right;
+	margin-left: 50%;
+	font-size: 25px;
+	background-color: #00FFA3;
+	padding: 5px 50px;
+	margin-top: 15px ;
+}
+
+@media screen and (max-width: 1200px) {
+
+.main{width: 1000px;
+}
+.column{
+		width: 1000px;
+	}
+}
+@media screen and (max-width: 1000px) {
+.main{width: 780px;
+}
+.column{
+		width: 780px;
+	}
+}
+@media screen and (max-width: 780px) {
+.main{width: 100%;
+}
+	
+	.row{
+		width: 100%;
+	}
+	.column{
+		width: 100%;
+		
+	}
+
+	
+}
+@media screen and (max-width: 500px) {
+.cartboxrowimg{
+    float: left;
+	
+}
+.cartboxrownum{
+float: right;
+width: 35px;
+height: 20px;
+font-size: 15px;
+position: relative;
+top: 20px;
+}
+.cartbarright{
+	float: right;
+	margin-left: 30px;
+}
+.cartboxrow{
+	margin-left: auto;
+	margin-right: auto;
+	height:100px;
+	clear: both;
+}
+.cartboxrowprice{
+	font-size: 20px;
+	 float: right;
+	padding: 10px;
+margin-left: 20px;
+position: relative;
+top: -8px;
+}
+.cartboxrowtotalprice{
+    float: right;
+    margin-left: 20%;
+    font-size: 20px;
+    list-style-type: none;
+	 
+}
+.cartboxrowtotalpricenext{
+	padding: 5px 20px;
+	
+}
+}
+@media screen and (min-width: 780px) {
+	.dropdown-content{
+		display: none;
+	}
+}

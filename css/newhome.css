@@ -1,118 +1,37 @@
 /* CSS Document */
-body{
-text-align: center;		
-margin: 0px;
-padding: 0px;
-background-color: white;
+.footer{
+float: left;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-.navbar {
-width: 60%;
-margin-left: 20%;
-	background-color: white;
-	z-index: 1;
-
-  }
-
-	.home{
-		float: left;
-		font-size: 30px;
-		color: black;
-		text-align: center;
-		padding: 5px 5px;
-		text-decoration: none;
-		}
-
-.fa-caret-down{
-	padding-left: 10px;
-}
-.dropbtn {
-float: right;
-  padding: 5px 5px;
-  font-size: 30px;
-  border: none;
-  cursor: pointer;
- background-color: white;
-}
-.dropdowntxt{
-	padding-right: 10px;
-}
- /* Dropdown button on hover & focus 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: lightpink;
-}*/
-/* The container <div> - needed to position the dropdown content 
-.dropdown {
-  float: right;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: fixed;
-top: 40px;
-	right: 0px;
-  background-color: black;
-  min-width: 134px;
- /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 .box{
-    width: 60%;	
+	
+     width: 1100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
-	background-color: aliceblue;
-	height: 600px;
+	margin-top:20px;
+
 }
 .bktomenu{
     display: block;
     text-align: left;
-    background-color: aqua;
     opacity: 0.5;
     text-decoration: underline;	
 	margin: 10px 10px;
+	margin-bottom: 30px;
 	
 }
 .left{
-	background-color: antiquewhite;
-	height: 500px;
 	width:50%;
 	float: left;
+
 }
 .img{
 	width: 100%
 }
 .right{
 	
-    background-color: white;
-    height: 500px;
+ 
     width: 50%;
     float: left;
  
@@ -120,11 +39,14 @@ top: 40px;
 .pdname{
 	text-align: left;
 	margin-left: 25px;
+	margin-bottom: 40px;
+	font-size: 25px;
 }
 .price{
 	text-align: left;
 	margin-left: 25px;
-	
+	margin-bottom: 40px;
+	font-size: 20px;
 }
 .numbertxt{
 	margin-left: 25px;
@@ -141,61 +63,170 @@ top: 40px;
     left: 5px;
     border-radius: 4px 4px 4px 4px;
 	border-color: #739EFF;
+	
 }
 .addtcart{
     margin-left: 15%;
     width: 70%;
     border: 1px solid #FFABAC;
-    background-color: white;
-    margin-top: 90px;
-    transition: all 0.2s linear;
-    border-radius: 15px 15px 15px 15px;
+    margin-top: 150px;
+    transition: all 0.1s linear;
+    border-radius: 15px;
+	padding: 5px 0px;
+	color: aliceblue;
+	background-color: #FF3337;
 }
 .addtcart:hover{
     background-color: gainsboro;
+}
 
-}
-.buynow{
-	border-radius: 15px 15px 15px 15px;
-	margin-left: 15%;
-    width: 70%;
-	border: 1px solid #FF3337;
-	background-color: #FF3337;
-	opacity: 0.6;
-	color: aliceblue;
-	transition: all 0.2s linear;
-	
-}
 .buynow:hover{
 	opacity: 1;
-
 }
 .detailstxt{
-	margin-top: 30px;
+	margin-top: 100px;
+	font-size: 20px;
 }
 .details{
 	width: 70%;
 	margin-left: 15%;
-	text-align: justify;
+	text-align: center;
+}
+.maybebox{
+ 
+    width: 100%;
+    clear: left;
+	
+}
+.maybetxt{
+	padding-top: 100px;
+	font-size: 25px;
+}
+.maybecolumn {
+display:block;
+  float: left;
+  width: 25%;
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+.maybecard {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.maybeimg{
+	width: 100%;	
+}
+.maybecontainer{
+margin: auto;
+padding: auto;
+width: 80%;	
+}
+.maybecontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.maybetitle{
+	text-align: center;
+}
+.maybemenupice{
+	display: block;
+	font-size: 20px;
 }
 
 
 
 
 
+@media screen and (max-width: 1200px) {
 
+.box{
+	width: 980px;
+}
+}
+@media screen and (max-width: 1000px) {
 
-
-
-#footerarea{
-float: left;
-width: 100%;
-height: 900px;
-background-color: #2D2D2D;
-opacity: 1;
-	margin-top: 500px;
+.box{
+	width: 780px;
+}
+.pdname{
+	margin-bottom: 20px;
+}
+.price{
+	margin-bottom: 20px;
+}
+.addtcart{
+    margin-top: 80px;
 }
 
-@media (max-width:510px){
+.detailstxt{
+	margin-top: 50px;
+}
+.maybetitle{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 780px) {
+.title{
+	font-size: 15px;
+	text-align: center;
+}
+.menupice{
+	display: inline;
+	float: left;
+	font-size: 10px
+}
+.button{
+	float: right;
+	font-size: 15px;
+	position: relative;
+	top:4px;
+	background-color: hotpink;
+	border-radius: 50%;
+	padding: 5px;
+}
+	.containericon {
+		display:block;
+	}
+	
+	.home{
+		display: none;
+	}
+	.box{
+	width: 100%;
+}
+.left{
+	
+	width:100%;
+	float: left;
+}
+.right{
+	
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.maybetxt{
+padding-top: 0px;
+
+}
+.maybecolumn {
+  width: 50%;
+}
+.maybecard {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+	.maybetitle{
+		font-size: 15px;
+	}
+
+}
+@media screen and (min-width: 780px) {
+	.dropdown-content{
+		display: none;
+	}
+
 
 }
