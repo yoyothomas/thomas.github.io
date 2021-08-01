@@ -10,6 +10,7 @@
 <style type="text/css">
 @import url("css/head.css");
 @import url("css/footer.css");
+
 .back{
 	font-size: 15px;
 	font-family: 微軟正黑體, Arial;
@@ -27,7 +28,7 @@
 	padding-right: 15px;
 	border-radius: 10px;
 	}
-.content {width:100%; padding-left: 2px; padding-right: 2px;border:1px; overflow:hidden;}
+.content {width:100%; padding-left: 2px; padding-right: 2px;border:1px;}
 .content img{max-width:760px;_width:expression(this.width > 760 ? "760px" : this.width);}
 body {
 	background-color: #f3e18f;
@@ -66,34 +67,28 @@ a:visited:not(.fa)  {
 a:hover:not(.fa)  {
 	text-decoration: none;
 	color: #d2ac6e;
+		border-bottom: 1px solid black;
 }
 a:active:not(.fa)  {
 	text-decoration: none;
 }
 table {
 	border-spacing: 30px 2px;
-	width: 70%;
-	margin-left:15%;
-	margin-right: 15%
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 	@media screen and (max-width: 1200px) {.article{width:  980px;}}
 @media screen and (max-width: 1000px) {.article{width:  780px;}}
 @media screen and (max-width: 780px) {
 	table{width: 100%;
-	margin-left:0%;
-	margin-right:0%}
-	.main{width:  100%;}
-	.dropdown-content a {
- background-color: aqua;
-  color: white;
-  padding: 8px 16px;
-  text-decoration: none;
-  display: block;
-width: 100%;
-	
+	margin-left:0;
+	margin-right:0}
+	.article{width: 100%;}
 }
-	
+
+
 	}
 
 </style>
@@ -169,12 +164,12 @@ width: 100%;
     <table>
       <tbody>
         <tr>
-          <td colspan="2">姓名</td>
-          <td width="382"><label for="email">電郵</label></td>
+          <td colspan="1">姓名</td>
+          <td colspan="2" ><label for="email">電郵</label></td>
         </tr>
         <tr>
-          <td colspan="2"><input name="textfield" type="text" id="textfield" size="20" maxlength="50"></td>
-          <td><input name="email" type="email" id="email" size="20" maxlength="50"></td>
+          <td colspan="1"><input name="textfield" type="text" id="textfield" size="20" maxlength="50"></td>
+          <td  colspan="2"><input name="email" type="email" id="email" size="20" maxlength="50"></td>
         </tr>
         <tr>
           <td colspan="3">電話號碼</td>

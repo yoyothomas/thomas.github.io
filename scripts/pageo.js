@@ -1,54 +1,31 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+
 var backtotop = document.querySelector(".bt");
 backtotop.addEventListener('click',()=>{
 window.scrollTo({
-  top: 0,
-  left: 0,
-  behavior: 'smooth',
+  top: 100,
+  left: 100,
+  behavior: 'smooth'
 });
+
 })
 
-function xmyFunction(x) {
-  x.classList.toggle("change");
+function categoriesddmyFunction() {
+  document.getElementById("categoriesddmyDropdown").classList.toggle("categoriesddshow");
+}
+function aumyFunction() {
+  document.getElementById("aumyDropdown").classList.toggle("aushow");
 }
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function categoriesddmyFunction() {
-  document.getElementById("categoriesddmyDropdown").classList.toggle("categoriesddshow");
-}
-
-function aumyFunction() {
-  document.getElementById("aumyDropdown").classList.toggle("aushow");
-}
-
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.audropbtn')) {
-    var audropdowns = document.getElementsByClassName("audropdown-content");
-    let i;
-    for (i = 0; i < audropdowns.length; i++) {
-      var auopenDropdown = audropdowns[i];
-      if (auopenDropdown.classList.contains('aushow')) {
-        auopenDropdown.classList.remove('aushow');
-      }
-    }
-  }
-  if (!event.target.matches('.categoriesdddropbtn')) {
-    var categoriesdddropdowns = document.getElementsByClassName("categoriesdddropdown-content");
-    let i;
-    for (i = 0; i < categoriesdddropdowns.length; i++) {
-      var categoriesddopenDropdown = categoriesdddropdowns[i];
-      if (categoriesddopenDropdown.classList.contains('categoriesddshow')) {
-        categoriesddopenDropdown.classList.remove('categoriesddshow');
-      }
-    }
-  }
- if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
+  if (!event.target.matches('.dropbtn')) {
+    let dropdowns = document.getElementsByClassName("dropdown-content");
     let i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
@@ -56,9 +33,31 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
-  }		
-	
-	
+  }
+  if (!event.target.matches('.audropbtn')) {
+    let audropdowns = document.getElementsByClassName("audropdown-content");
+    let o;
+    for (o = 0; o < audropdowns.length; o++) {
+      var audopenDropdown = audropdowns[o];
+      if (audopenDropdown.classList.contains('audshow')) {
+        audopenDropdown.classList.remove('audshow');
+      }
+    }
+  }
+  if (!event.target.matches('.categoriesdddropbtn')) {
+    let categoriesdddropdowns = document.getElementsByClassName("categoriesdddropdown-content");
+    let t;
+    for (t = 0; t < categoriesdddropdowns.length; t++) {
+      var categoriesddopenDropdown = categoriesdddropdowns[t];
+      if (categoriesddopenDropdown.classList.contains('categoriesddshow')) {
+        categoriesddopenDropdown.classList.remove('categoriesddshow');
+      }
+    }
+  }
+
+}
+function xmyFunction(x) {
+  x.classList.toggle("change");
 }
 
 

@@ -11,7 +11,7 @@
 <style>
 @import url("css/head.css");
 @import url("css/mupage.css");
-@import url("css/categoriesdd.css");
+@import url("css/categoriesddn.css");
 @import url("css/footer.css");
 a:link:not(.fa){
 	text-decoration: none;
@@ -24,6 +24,7 @@ a:visited:not(.fa) {
 a:hover:not(.fa) {
 	text-decoration: none;
 	color: #d2ac6e;
+		border-bottom: 1px solid black;
 }
 a:active:not(.fa)  {
 	text-decoration: none;
@@ -39,16 +40,7 @@ text-align: center;
 	height: 300px;
 	}	
 @media screen and (max-width: 780px) {
-	.main{width:  100%;}
-	.dropdown-content a {
- background-color: aqua;
-  color: white;
-  padding: 8px 16px;
-  text-decoration: none;
-  display: block;
-width: 100%;
-	
-}
+
 
 	.footer{
 	font-size: 15px;
@@ -84,14 +76,9 @@ width: 100%;
 	        <a href="cart.html" class="home">購物車</a>
 	         <a href="login2.html" class="home">登入</a>
 			<a href="topic.html" class="home">店主日常</a>
-			
-		
-	
-            
-
 
 <div class="audropdown" >
-           <a onclick="aumyFunction()" class="audropbtn">關於我們<i class ="fa fa-caret-down"></i></a>
+           <button onclick="aumyFunction()" class="audropbtn">關於我們<i class ="fa fa-caret-down"></i></button>
 	       <div id="aumyDropdown" class="audropdown-content">
 		 <a  href="aboutus.html">我們的故事</a>
 		   <a  href="contactus.html">聯絡我們</a>
@@ -132,17 +119,17 @@ width: 100%;
 	<img src="images/banner_l.png" alt="C&C Product Life style" class="bander">
 
 <div class="categoriesbox">
-	<p class="categories">分類</p>
+
 	
 <div class="categoriesdddropdown" >
- <button onclick="categoriesddmyFunction()" class="categoriesdddropbtn" >生活用品<i class ="fa fa-caret-down"></i></button>
+ <button onclick="categoriesddmyFunction()" class="categoriesdddropbtn" ><br>生活用品<i class ="fa fa-caret-down"></i></button>
 	<div id="categoriesddmyDropdown" class="categoriesdddropdown-content">
 		<a  href="mupaga - allw.html">全部</a>
 		<a  href="mupaga - allc.html">護膚品</a>
 		<a  href="mupaga - alldk.html">飾物</a>
 
     </div>
-</div>
+</div>	<p class="categories">分類</p>
  </div> 
 
 	

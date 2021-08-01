@@ -1,15 +1,15 @@
 /* CSS Document */
+
 .fa {
-width: 50px;}
-.bander{text-align: center;
-display: inline;
-width:  1100px;
+width: 50px;
 }
-.categoriesbox{
-margin: auto;
+
+.bander
+{margin: auto;
 padding: auto;
 width: 1100px;
 }
+
 
 .row{
 margin: auto;
@@ -66,9 +66,6 @@ padding: auto;
 
 @media screen and (max-width: 1200px) {
 
-.categoriesbox{
-width: 1000px;
-}
 .row{
 width: 1000px;
 	}
@@ -84,9 +81,6 @@ width:1000px;
 }
 @media screen and (max-width: 1000px) {
 	
-.categoriesbox{
-width: 780px;
-}
 .row{
 width: 780px;
 	}
@@ -135,9 +129,6 @@ margin: 3px;
 .bander{
 width: 100%;
 	}
-.categoriesbox{
-width: 100%;
-}
 .row{
 width: 100%;
 	}
