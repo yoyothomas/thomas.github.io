@@ -24,13 +24,27 @@
 	margin-right: auto;
 	height:150px;
 	clear: both;
-	margin-top:  20px 
+	margin-top:  20px ;
+	border-bottom: 1px solid black;
 }
 .cartboxrowimg{
     float: left;
 	height: 100%;
+	text-align: left;
 }
-
+.cartboxrowimg p{
+	margin-left: 15px;
+	
+	display: block;
+}
+.cartboxrowimg a{
+	position: relative;
+	top:20px;
+	margin-left: 15px;
+	display: inline;
+	color: red;
+	border-bottom: 1px solid red;
+}
 .cartboxrownum{
 float: right;
 width: 50px;
@@ -96,35 +110,50 @@ top: 15px;
 	
 }
 @media screen and (max-width: 500px) {
-.cartboxrowimg{
-    float: left;
-	
-}
 .cartboxrownum{
 float: right;
-width: 35px;
-height: 20px;
-font-size: 15px;
+width: 30px;
+height: 18px;
+font-size: 12px;
 position: relative;
 top: 20px;
 }
 .cartbarright{
 	float: right;
-	margin-left: 30px;
+	margin-left: 0px;
 }
+.cartboxrowimg{
+    float: left;
+	height: 100%;
+}
+	.cartboxrowimg p{
+	font-size: 12px;
+	margin-left: 2px;
+	display: block;
+}
+.cartboxrowimg a{
+	font-size: 12px;
+	position: relative;
+	top:15px;
+	margin-left: 2px;
+	display: inline;
+	color: red;
+	border-bottom: 1px solid red;
+}
+	
 .cartboxrow{
 	margin-left: auto;
 	margin-right: auto;
-	height:100px;
+	height:80px;
 	clear: both;
 }
 .cartboxrowprice{
-	font-size: 20px;
+	font-size: 15px;
 	 float: right;
-	padding: 10px;
+	padding: 5px;
 margin-left: 20px;
 position: relative;
-top: -8px;
+top:5px;
 }
 .cartboxrowtotalprice{
     float: right;

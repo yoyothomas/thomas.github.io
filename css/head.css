@@ -249,12 +249,9 @@ margin: 3px;
 	}
 	.containericon {
 		display:block;
-		float: left;
 	}
-
-
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
 		.toptopimg{
 		height: 40px;
 	}
