@@ -37,10 +37,12 @@ float: left;
  
 }
 .pdname{
+	font-weight: 600;
 	text-align: left;
 	margin-left: 25px;
 	margin-bottom: 40px;
 	font-size: 25px;
+	
 }
 .price{
 	text-align: left;
@@ -93,17 +95,15 @@ float: left;
 	text-align: center;
 }
 .maybebox{
- 
     width: 100%;
     clear: left;
-	
 }
 .maybetxt{
 	padding-top: 100px;
 	font-size: 25px;
 }
 .maybecolumn {
-display:block;
+
   float: left;
   width: 25%;
   margin: 5px 0px;
@@ -212,13 +212,13 @@ padding-top: 0px;
 
 }
 .maybecolumn {
-  width: 50%;
+  width:50%;
 }
 .maybecard {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   margin: 10px;
 }
-	.maybetitle{
+.maybetitle{
 		font-size: 15px;
 	}
 
