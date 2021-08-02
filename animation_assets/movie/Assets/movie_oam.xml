@@ -5,21 +5,23 @@
 
 <category name="Flash Animation"/>
 <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
-<icon src="PosterImg_556.png" width="960" height="640"/>
+<icon src="PosterImg_758.png" width="960" height="640"/>
 <require type="other" src="movie.html"/>
 <require type="javascript" src="movie.js"/>
 <require type="image" src="images/movie_atlas_1.png"/>
 <require type="image" src="images/movie_atlas_2.png"/>
 <require type="image" src="images/movie_atlas_3.png"/>
+<require type="other" src="sounds/flowersfalledited4.mp3"/>
 <require type="folder" src="images"/>
+<require type="folder" src="sounds"/>
 <content></content>
 
 <properties name="Properties">
 <property name="default-width" defaultValue="960" hidden="true"/>
 <property name="default-height" defaultValue="640" hidden="true"/>
-<property name="resizable" defaultValue="true" hidden="true"/>
+<property name="resizable" defaultValue="false" hidden="true"/>
 <property name="centering" defaultValue="" hidden="true"/>
-<property name="scaling" defaultValue="both" hidden="true"/>
+<property name="scaling" defaultValue="" hidden="true"/>
 <property name="html-page" defaultValue="movie.html" hidden="true"/>
 <property name="target-platform" defaultValue="htmlcanvas" hidden="true"/>
 <property name="created-in" defaultValue="Adobe Animate CC" hidden="true"/>
